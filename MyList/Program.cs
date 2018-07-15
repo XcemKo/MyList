@@ -12,6 +12,13 @@ namespace MyList
         {
             myList<int> test = new myList<int>();
 
+            test.Add(1);
+            test.Add(2);
+            test.Add(5);
+
+            foreach (var i in test)
+                Console.Write(i);
         }
     }
 }
+
